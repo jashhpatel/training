@@ -14,5 +14,6 @@ public class Main {
         int height = ip.nextInt();
         int area = (int) (0.5*base*height);
         System.out.println("The area of triangle is "+ area);
+        System.out.println("Hi i am inside the development branch");
     }
 }
