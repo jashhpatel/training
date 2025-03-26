@@ -15,5 +15,6 @@ public class Main {
         int area = (int) (0.5*base*height);
         System.out.println("The area of triangle is "+ area);
         System.out.println("Hi i am inside the development branch");
+        System.out.println("Testing git Stash");
     }
 }
