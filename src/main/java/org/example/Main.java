@@ -16,5 +16,16 @@ public class Main {
         System.out.println("The area of triangle is "+ area);
         System.out.println("Hi i am inside the development branch");
         System.out.println("Testing git Stash");
+        Animal animal1 = new Animal();
+        animal1.name = "Dog";
+        animal1.walking();
+    }
+}
+
+class Animal{
+    String name;
+
+    void walking(){
+        System.out.println("I am "+name+", and I am walking");
     }
 }
